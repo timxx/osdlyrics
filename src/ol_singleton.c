@@ -31,7 +31,7 @@
 const char *LOCK_FILENAME = "singleton.lock";
 
 /* Try to lock a file, From APUE */
-int64_t
+int
 _lockfile (int fd)
 {
   struct flock fl;
